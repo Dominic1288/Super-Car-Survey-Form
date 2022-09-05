@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">    
+    <title>Super Car Survey</title>    
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Supercar Survey</h1>
+      <p id="description">What is your favorite supercar brand?</p>
+    </header>
+
+    <form id=survey-form>
+  
+      <label for="name" id="name-label">Name:</label>
+      <input id="name" type="text" name="name" placeholder="Enter your name" required></input>
+      <br>
+
+      <label for="email" id="email-label">Email:</label>
+      <input id="email" type="email" name="email" placeholder="Enter your email" required></input> 
+      <br>
+
+      <label for="number" id="number-label">Age:</label>
+      <input id="number" type="number" name="number" placeholder="Age" min="18" max="99" required></input>
+      <br>
+      <br>
+
+      <label for="dropdown" id="own">How many supercars do you own?</label>
+      <select id="dropdown">
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4+">4+</option>
+      </select>
+      <br>
+      <br>
+
+      <label for="track" id="track"> Do you take your supercar(s) to the track?</label>
+        <br>
+
+        <input id="track" type="radio" id="yes" name="answer" value="yes">
+      <label for="track">Yes</label>
+
+      <input id="track" type="radio" id="no" name="answer" value="no">
+      <label for="track">No</label>
+      <br>
+      <br>
+
+      <label for="brand">Select your favorite brand of supercar. (Check all that apply)</label>
+      <br>
+      <input id="checkbox" type="checkbox" label="brand" value="lamborghini">
+      <label for="checkbox">Lamborghini</label>
+      <br>
+      <input id="checkbox" type="checkbox" label="brand" value="ferarri">
+      <label for="checkbox">Ferrari</label>
+      <br>
+      <input id="checkbox" type="checkbox" label="brand" value="mclaren">
+      <label for="checkbox">Mclaren</label>
+      <br>
+      <input id="checkbox" type="checkbox" label="brand" value="all_of_the_above">
+      <label for="checkbox">All of the Above</label>
+      <br>
+      <input id="checkbox" type="checkbox" label="brand" value="other">
+      <label for="checkbox">Other (Please specify below)</label>
+      <br>
+
+      <label id="textarea"></label>
+      <textarea id="textarea" name="instructions" rows="5" cols="40">
+  
+      </textarea>
+      <br>
+
+      <input id="submit" type="submit" value="Submit">
+  
+    </form>
+
+  </body>
+
+</html>

@@ -1,0 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    width: 500px;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://images.hdqwalls.com/wallpapers/mclaren-lambo-ferrari-458-super-car-showdown-4k-r8.jpg) 
+  }
+  
+  header {
+    color: rgb(255,255,255);
+    margin: 0 0 0 110px;
+  }
+  
+  form {
+    color: rgb(255,255,255);
+    border: 2px solid;
+    padding: 2.5rem 2.5rem;
+    background: black;
+  }
